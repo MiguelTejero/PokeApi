@@ -1,0 +1,58 @@
+/* Fondo amarillo para el body */
+body {
+    background-color: yellow;
+}
+
+/* Barra de navegación con imagen de fondo y distribución flex */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('./img/bannerPokemon.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    height: 20vh;
+    border: 10px solid black;
+}
+
+/* Estilo para los enlaces de navegación */
+.link {
+    text-decoration: none;
+    background-color: rgb(132, 0, 0);
+    padding: 10px 20px; /* Ajuste el padding para un tamaño consistente */
+    border-radius: 7%;
+    border: 6px solid black;
+    color: white;
+    font-size: 200%;
+    width: 180px; /* Establezco un ancho fijo para evitar que el enlace se haga más grande */
+    text-align: center; /* Asegura que el texto esté centrado */
+    display: inline-block; /* Evita que el enlace se expanda */
+}
+
+/* Efecto hover para los enlaces */
+.link:hover {
+    background-color: rgb(180, 0, 0);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease-in-out;
+}
+
+/* le doy estilo al boton de iniciar o cerrar sesion */
+button.link {
+    background-color: rgb(132, 0, 0);
+    padding: 10px 20px; 
+    border-radius: 7%;
+    border: 6px solid black;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    cursor: pointer;
+}
+
+button.link:hover {
+    background-color: rgb(180, 0, 0);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease-in-out;
+}

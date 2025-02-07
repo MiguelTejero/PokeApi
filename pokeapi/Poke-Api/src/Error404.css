@@ -1,0 +1,24 @@
+.error-container {
+  text-align: center; /* Centra el contenido */
+  margin-top: 50px; /* Espacio superior */
+}
+
+.error-container h1 {
+  font-size: 2.5rem; /* Título grande */
+  color: #ff4444; /* Color rojo */
+}
+
+.error-container p {
+  font-size: 1.2rem; /* Texto más pequeño */
+  color: #333; /* Color oscuro */
+}
+
+.boton-volver {
+  padding: 10px 20px; /* Tamaño del botón */
+  background-color: #007bff; /* Fondo azul */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.boton-volver:hover {
+  background-color: #0056b3; /* Fondo más oscuro al pasar el cursor */
+}

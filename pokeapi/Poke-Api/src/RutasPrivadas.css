@@ -1,0 +1,10 @@
+/* Doy estilo al texto de aviso*/
+.inciasesionpara{
+    display: flex;
+    font-size: 5em;
+    justify-content: center;
+    align-content: center;
+    margin-top:30vh;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+
+}

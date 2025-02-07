@@ -1,0 +1,111 @@
+/* Contenedor general para el formulario de inicio de sesión o registro */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: rgba(20, 20, 20, 0.9);
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo para el título de la página */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffcc00; /* Amarillo Pokémon */
+}
+
+/* Estilo para los campos de entrada (inputs) */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #444;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #222;
+  color: white;
+  outline: none;
+  transition: border 0.3s ease-in-out;
+}
+
+/* Efecto de enfoque en los campos de entrada */
+input:focus {
+  border-color: #ffcc00;
+}
+
+/* Estilo para los botones */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Efecto hover para los botones */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Estilo específico para el botón de enviar */
+button[type="submit"] {
+  background: #ffcc00;
+  color: #222;
+  font-weight: bold;
+}
+
+/* Estilo para el botón de inicio de sesión con Google */
+.google-btn {
+  background: #ea4335;
+  color: white;
+  font-weight: bold;
+}
+
+/* Estilo para el botón de cambio entre formulario de registro e inicio de sesión */
+.toggle-btn {
+  background: transparent;
+  color: #ffcc00;
+  font-weight: bold;
+  border: 2px solid #ffcc00;
+}
+
+/* Estilo para los mensajes de error */
+.error-message {
+  margin-top: 10px;
+  padding: 10px;
+  background: rgba(255, 0, 0, 0.2);
+  border-left: 4px solid red;
+  color: red;
+  border-radius: 6px;
+}
+
+/* Estilo para mostrar la información del usuario cuando está logueado */
+.user-info {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+/* Estilo para el botón de cerrar sesión */
+.logout-btn {
+  background: #d9534f;
+  color: white;
+  font-weight: bold;
+}
+
+/* Animaciones para los elementos de entrada y botones */
+button, input {
+  transition: 0.3s ease-in-out;
+}
+
+/* Estilo para ocultar elementos */
+.hidden {
+  display: none;
+}
